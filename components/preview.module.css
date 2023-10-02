@@ -1,0 +1,28 @@
+.background {
+    height: 35%;
+    background-color: #F0F4F9;
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+    margin-top: 3rem;
+    border-radius: .95rem;
+}
+
+.container {
+    padding: 4rem 0 4rem 2.55rem;
+}
+
+.title {
+    font-size: 1.875rem;
+    font-weight: 550;
+}
+
+.subtitle {
+    color: #777777;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+.blurb {
+    margin-top: 1rem;
+    max-width: 45%;
+}

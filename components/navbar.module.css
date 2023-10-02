@@ -1,0 +1,24 @@
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0 2.5rem 0;
+  }
+
+.item {
+    color: #777777;
+    text-decoration: none;
+}
+
+.left {
+    font-size: 1.875rem;
+    letter-spacing: 2%;
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}

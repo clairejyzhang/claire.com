@@ -24,6 +24,15 @@
     font-size: 1.2rem;
     line-height: 1.5;
   }
+
+  .p {
+    font-size: 1rem;
+  }
+
+  .image {
+    margin: 3rem 0 3rem 0;
+    border-radius: 5px;
+  }
   
   .borderCircle {
     border-radius: 9999px;
@@ -43,10 +52,18 @@
     margin: 0;
   }
   
-  .listItem {
-    margin: 0 0 1.25rem;
-  }
-  
   .lightText {
     color: #666;
+    font-size: 1.2rem;
   }
+
+.container55 {
+  max-width: 55%;
+  margin-left: 22.5%;
+}
+
+.container {
+    max-width: 55%;
+}
+
+
