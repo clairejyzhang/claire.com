@@ -47,14 +47,18 @@ export default function Learning({ allPostsData }) {
         <section className={`${utilStyles.container55}`}>
           <Navbar />
           <section className={`${styles.heading} ${utilStyles.padding1px}`}>
-              <div className={styles.grid}>
+              <div>
               {allPostsData.map(({ id, num, title }) => (
-                <>
+                <div>
+                  <div className={styles.projectRow}>
+                    <div className={styles.projectRowContent}>
                       <small className={utilStyles.lightText}>
                           <Num int={num} />
                       </small>
                       <Link href={`/learning/${id}`}>{title}</Link>
-                      </>
+                    </div>
+                  </div>
+                </div>
               ))}
               </div>
           </section>

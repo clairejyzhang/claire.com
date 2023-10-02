@@ -4,7 +4,29 @@
     margin-left: -2.5rem;
 }
 
-.grid {
-    display: grid;
+.projectRowContent {
+    display: inline-grid;
     grid-template-columns: 2.55rem auto;
 }
+
+.projectRow {
+    display: inline-block;
+}
+
+.projectRow:after {
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 #000000;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+}
+
+.projectRow:hover:after {
+    width: 100%;
+}
+
+.projectRow:hover a {
+    color: #666666 !important;
+}
+
