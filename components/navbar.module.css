@@ -8,6 +8,8 @@
 
 .item {
     color: #777777;
+    transition: opacity 250ms;
+    opacity: 1;
     text-decoration: none;
 }
 
