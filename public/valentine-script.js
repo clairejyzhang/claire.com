@@ -5,9 +5,11 @@ noButton.addEventListener("mouseover", handleNoHover);
 
 handleYesClick();
 
-function changeGif() {
+function acceptedValentine() {
   document.getElementById("questionGif").height=`0`;
   document.getElementById("yesGif").height=`280`;
+  document.getElementById("yesButton").hidden=`hidden`;
+  document.getElementById("noButton").hidden=`hidden`;
 }
 
 // yes button
@@ -22,7 +24,7 @@ function generateMessage(yesCount) {
   ];
 
   if (yesCount == 5) {
-    changeGif();
+    acceptedValentine();
     return messages[4]
   }
   else {
