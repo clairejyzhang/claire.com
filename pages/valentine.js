@@ -26,23 +26,32 @@ export default function Valentine() {
 
           <div id={`${styles.valentineContainer}`}>
     
-            <Image 
-                priority
-                src="/gifs/question.gif"
-                className={styles.image}
-                id="headerGif"
-                height={280}
-                width={490}
-                style={{objectFit: "contain"}}
-                alt=""
-              />
+            {/* <div id={`${styles.gifContainer}`}> */}
+              <Image 
+                  priority
+                  src="/gifs/question.gif"
+                  className={styles.image}
+                  id="questionGif"
+                  height={280}
+                  width={490}
+                  style={{objectFit: "contain"}}
+                  alt=""
+                />
+              <Image 
+                  priority
+                  src="/gifs/yes.gif"
+                  className={styles.image}
+                  id="yesGif"
+                  height={0}
+                  width={490}
+                  style={{objectFit: "contain"}}
+                  alt=""
+                />
 
             <p className={`${styles.question}`} id="questionText">Will you be my Valentine?</p>
     
-            {/* <div id={`${styles.buttonContainer}`}> */}
-              <button className={`${styles.yesButton}`} id="yesButton">Yes</button>
-              <button className={`${styles.noButton}`} id="noButton">No</button>
-            {/* </div> */}
+            <button className={`${styles.yesButton}`} id="yesButton">Yes</button>
+            <button className={`${styles.noButton}`} id="noButton">No</button>
      
           </div>
         </section>

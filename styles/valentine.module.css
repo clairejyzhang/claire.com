@@ -21,8 +21,23 @@
     margin-top: 10%;
 }
 
+/* #gifContainer {
+    position: relative;
+} */
+
+#questionGif {
+    position: absolute;
+    z-index: 1;
+}
+
+#yesGif {
+    position: absolute;
+    z-index: 2;
+}
+
 .question {
     font-size: 1.2em;
+    padding: .5em;
     color: #470F0B;
 }
 
@@ -38,7 +53,7 @@
 .yesButton {
     position: absolute;
     border: none;
-    margin-top: 18.5em;
+    margin-top: 19.5em;
     margin-right: 10.5em;
     padding: 10px;
     border-radius: 8px;
@@ -50,7 +65,7 @@
 .noButton {
     position: absolute;
     border: none;
-    margin-top: 18.5em;
+    margin-top: 19.5em;
     margin-left: 10.5em;
     padding: 10px;
     border-radius: 8px;

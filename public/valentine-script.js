@@ -5,18 +5,25 @@ noButton.addEventListener("mouseover", handleNoHover);
 
 handleYesClick();
 
+function changeGif() {
+  document.getElementById("questionGif").height=`0`;
+  document.getElementById("yesGif").height=`280`;
+}
+
 // yes button
 
 function generateMessage(yesCount) {
   const messages = [
     "Will you be my Valentine?",
     "Are you sure?",
-    "Really sure?",
-    "...even if I was a worm?"
+    "Really sure??",
+    "...even if I was a worm?",
+    "Yay!! I love you 😚😚"
   ];
 
   if (yesCount == 5) {
-    return("end")
+    changeGif();
+    return messages[4]
   }
   else {
     return messages[yesCount - 1];
