@@ -12,8 +12,8 @@ export default function Home() {
 
       <section className={utilStyles.container55}>
         <Navbar />
-        <p>Hi! I'm Claire. I am a</p>
-        <ul>
+        <p>Hi! I'm Claire. This site is a WIP.</p>
+        {/* <ul>
           <li>student 🦁</li>
           <li>aspiring product manager </li>
           <li>New York State certified EMT 🚑</li>
@@ -49,7 +49,7 @@ export default function Home() {
           <li>Being Mortal - Atul Gawande</li>
           <li>The Three Body Problem - Cixin Liu 🧑‍🚀</li>
         </ul>
-        <p>If you recommend me a song or book here, I’ll rec you one too! ❤️❤️</p>
+        <p>If you recommend me a song or book here, I’ll rec you one too! ❤️❤️</p> */}
       </section>
 
 

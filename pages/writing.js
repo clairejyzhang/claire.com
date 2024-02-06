@@ -20,8 +20,8 @@ export default function Writing({ allPostsData }) {
     <>
         <section className={`${utilStyles.container55}`}>
           <Navbar />
-          <h1>test</h1>
-          <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+          <h1>Coming soon!</h1>
+          {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
             <h2 className={utilStyles.headingLg}>Blog</h2>
             <ul className={utilStyles.list}>
               {allPostsData.map(({ id, date, title }) => (
@@ -34,7 +34,7 @@ export default function Writing({ allPostsData }) {
                 </li>
               ))}
             </ul>
-          </section>
+          </section> */}
         </section>
 
     </>

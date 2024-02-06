@@ -14,6 +14,7 @@ export default function Navbar({ children, home }) {
             <div className={styles.right}>
                 <NavLink href="/learning" text="learning" currentHovering={currentHovering} setHovering={setCurrentHovering}/>
                 <NavLink href="/writing" text="writing" currentHovering={currentHovering} setHovering={setCurrentHovering}/>
+                <NavLink href="/valentine" text="ᰔᩚ" currentHovering={currentHovering} setHovering={setCurrentHovering}/>
             </div>
         </section>
 

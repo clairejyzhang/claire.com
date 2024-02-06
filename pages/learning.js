@@ -57,7 +57,8 @@ export default function Learning({ allPostsData }) {
     <>
         <section className={`${utilStyles.container55}`}>
           <Navbar />
-          <section className={`${styles.heading} ${utilStyles.padding1px}`}>
+          <p>Coming soon!</p>
+          {/* <section className={`${styles.heading} ${utilStyles.padding1px}`}>
               <div>
               {allPostsData.map(({ id, num, title }) => (
                 <div>
@@ -78,7 +79,7 @@ export default function Learning({ allPostsData }) {
             roles={selectedProject.roles}
             year={selectedProject.year}
             description={selectedProject.description}
-          />
+          /> */}
         </section>
         
 
