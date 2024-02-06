@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/learning.module.css';
 import { getSortedPostsData } from '../lib/learning-posts';
@@ -18,30 +17,6 @@ export async function getStaticProps() {
     };
   }
 
-// export default function Learning({ allPostsData }) {
-//     return (
-//     <>
-//         <section className={`${utilStyles.pageContainer}`}>
-//             <Navbar />
-//             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-//                 <ul className={utilStyles.list}>
-//                 {allPostsData.map(({ id, num, title }) => (
-//                     <li className={utilStyles.listItem} key={id}>
-//                         <Link href={`/learning/${id}`}>{title}</Link>
-//                         <br />
-//                     </li>
-//                 ))}
-//                 </ul>
-//             </section>
-//         </section>
-    
-
-        
-//     </>
-      
-//     );
-//   }
-
 export default function Learning({ allPostsData }) {
     const [selectedProjectNum, setSelectedProjectNum] = useState(allPostsData[0].num);
 
@@ -55,6 +30,9 @@ export default function Learning({ allPostsData }) {
 
     return (
     <>
+      <Head>
+        <title>Learning | Claire Zhang</title>
+      </Head>
         <section className={`${utilStyles.container55}`}>
           <Navbar />
           {/* <p>Coming soon!</p> */}

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Claire Zhang</title>
+        <title>Home | Claire Zhang</title>
       </Head>
 
       <section className={utilStyles.container55}>

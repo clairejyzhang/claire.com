@@ -15,6 +15,9 @@ export default function Valentine() {
 
     return (
     <>
+      <Head>
+        <title>🐹 | Claire Zhang</title>
+      </Head>
         <section>
           <section className={`${utilStyles.container55}`}>
             <Navbar/>

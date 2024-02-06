@@ -18,6 +18,9 @@ export async function getStaticProps() {
 export default function Writing({ allPostsData }) {
     return (
     <>
+      <Head>
+        <title>Writing | Claire Zhang</title>
+      </Head>
         <section className={`${utilStyles.container55}`}>
           <Navbar />
           {/* <h1>Coming soon!</h1> */}
