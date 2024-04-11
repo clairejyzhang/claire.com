@@ -19,7 +19,7 @@ export default function Home() {
 
           <Image 
                   priority
-                  src="/images/profile.jpeg"
+                  src="/images/profile.png"
                   className={utilStyles.image}
                   height={350}
                   width={700}
