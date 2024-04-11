@@ -1,14 +1,14 @@
 ---
-title: 'Volunteer emergency medical services'
+title: 'First responders as extreme designers'
 roles: ['Volunteering']
 year: 2023
-description: Provided free emergency medical care to members of the Columbia University and Morningside Heights community, including intervention decision, administration of intervention, and transport. Volunteered 200 total hours.
+description: Provided free emergency medical care to members of the Columbia University and Morningside Heights community, including intervention decision, administration of intervention, and transport. Volunteered 200 total hours and learned how to become a better user researchers.
 num: 06
 image: "/images/emt/emt-thumbnail.png"
 
 ---
 
-### Why being an EMT helped me become a better designer
+### Working as an EMT helped me become a better designer 
 
 In 2023 I spent 200 hours as a volunteer emergency medical technician (EMT), where I realized that EMTs are really just designers turned to 100. Designers interview their users to develop a deep understanding of their needs, brainstorm ideas, and create solutions that meet those needs,  over weeks or months, in low-pressure settings where mistakes are part of the process. EMTs develop rapport with their patients to understand their symptoms, decide on an intervention, and administer treatment in minutes, in extremely high-pressure settings where mistakes can do serious damage. Here's what I learned:
 

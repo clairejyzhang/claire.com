@@ -29,10 +29,17 @@
     column-gap: 3.5rem;
 }
 
-@media (max-width:1664px) { 
+@media (max-width:1310px) { 
     
     .menuContainer {
         height: 16rem;
+    }
+}
+
+@media (max-width:655px) { 
+    
+    .menuContainer {
+        height: 20rem;
     }
 }
 

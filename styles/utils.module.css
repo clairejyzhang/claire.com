@@ -62,6 +62,14 @@
   margin-left: 22.5%;
 }
 
+@media (max-width:1664px) { 
+    
+  .container55 {
+      max-width: 70%;
+      margin-left: 15%;
+  }
+}
+
 .container {
     max-width: 55%;
 }

@@ -39,15 +39,27 @@
     width: 48%;
     background-color: white;
     border-radius: .75rem;
-    display: table-cell;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:890px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .textContainer {
+        width: 80%;
+    }
+
+    .thumbnailContainer {
+        margin: 2.5rem auto 2.5rem auto;
+        width: 100%;
+    }
 }
 
 .thumbnail {
     max-height: 110%;
-    margin-top: -1rem;
-    margin-bottom: -1rem;
-
     max-width: 115%;
-    margin-left: -2rem;
-    margin-right: -2rem;
+    margin: -1rem -2rem -1rem -2rem;
 }

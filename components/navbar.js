@@ -11,10 +11,10 @@ export default function Navbar({ children, home }) {
         <section className={`${utilStyles.container55}`}>
             <div className={`${styles.bar}`}>
                 <div className={styles.left}>
-                    <NavLink href="/" text="claire zhang." currentHovering={currentHovering} setHovering={setCurrentHovering}/>
+                    <NavLink href="/about" text="claire zhang." currentHovering={currentHovering} setHovering={setCurrentHovering}/>
                 </div>
                 <div className={styles.right}>
-                    <NavLink href="/learning" text="👩‍💻" currentHovering={currentHovering} setHovering={setCurrentHovering}/>
+                    <NavLink href="/" text="👩‍💻" currentHovering={currentHovering} setHovering={setCurrentHovering}/>
                     <NavLink href="/writing" text="📃" currentHovering={currentHovering} setHovering={setCurrentHovering}/>
                     {/* <NavLink href="/valentine" text="🐹" currentHovering={currentHovering} setHovering={setCurrentHovering}/> */}
                 </div>
