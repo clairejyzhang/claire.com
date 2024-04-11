@@ -1,16 +1,49 @@
-.heading {
+.p {
+    font-size: 1.5rem;
+}
+
+.untilThen {
+    letter-spacing: .03rem;
+    font-weight: 650;
+}
+
+.hello {
+    font-size: 1.5rem;
+    font-weight: 540;
+}
+
+.aboutMe {
     font-size: 1.2rem;
-    line-height: 1.5;
-    margin-left: -2.5rem;
+    line-height: 1.5rem;
+    /* margin-left: -2.5rem; */
+    margin-top: 2rem;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height: 8rem;
+    margin-top: 2rem;
+    column-gap: 3.5rem;
+}
+
+@media (max-width:1664px) { 
+    
+    .menuContainer {
+        height: 16rem;
+    }
 }
 
 .projectRowContent {
     display: inline-grid;
-    grid-template-columns: 2.55rem auto;
+    grid-template-columns: 2.55rem auto; 
 }
 
 .projectRow {
     display: inline-block;
+    font-size: 1.2rem
 }
 
 .projectRow:after {

@@ -21,11 +21,11 @@ export default function Writing({ allPostsData }) {
       <Head>
         <title>Writing | Claire Zhang</title>
       </Head>
+        <Navbar />
         <section className={`${utilStyles.container55}`}>
-          <Navbar />
           {/* <h1>Coming soon!</h1> */}
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-            <h2 className={utilStyles.headingLg}>Blog</h2>
+            <h2 className={utilStyles.headingLg}>🚧 👷 Blog is under construction 🚧 👷 </h2>
             <ul className={utilStyles.list}>
               {allPostsData.map(({ id, date, title }) => (
                 <li className={utilStyles.listItem} key={id}>

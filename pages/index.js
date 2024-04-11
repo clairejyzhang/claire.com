@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import utilStyles from '../styles/utils.module.css';
 import Navbar from '../components/navbar';
+
+import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
   return (
@@ -10,46 +11,40 @@ export default function Home() {
         <title>Home | Claire Zhang</title>
       </Head>
 
-      <section className={utilStyles.container55}>
-        <Navbar />
-        <p>Hi! I'm Claire. This site is a WIP.</p>
-        {/* <ul>
-          <li>student 🦁</li>
-          <li>aspiring product manager </li>
-          <li>New York State certified EMT 🚑</li>
-        </ul>
-        <p>who believes that life is best lived in service of others. I've formed this belief through There are many forms of service, but in terms of work, my experiences as a</p>
-        <ul>
-          <li>developer 🧑‍</li>
-          <li>researcher</li>
-          <li>lead UI/UX designer</li>
-        </ul>
-        <p>inform my approach to building high-impact solutions.</p>
-        <Image 
-              priority
-              src="/images/profile.jpg"
-              className={utilStyles.image}
-              height={280}
-              width={490}
-              style={{objectFit: "contain"}}
-              alt=""
-            />
-        <p>If you’re here, it means a) you want to learn more about me or b) you saw the cutoff picture and scrolled to see the rest of it (you fell into my trap!). </p>
-        <br/>
-        <p>Beyond what I do for work, you should also know that I’m into music, which I explore by</p>
-        <ul>
-          <li>playing jazz violin 🎻‍</li>
-          <li>learning new bass lines (currently practicing: Space Oddity) 🎸</li>
-          <li>abusing my Spotify Premium subscription</li>
-        </ul>
-        <p>and reading, most recently</p>
-        <ul>
-          <li>On Writing - Stephen King‍</li>
-          <li>An American Sickness - Elizabeth Rosenthal</li>
-          <li>Being Mortal - Atul Gawande</li>
-          <li>The Three Body Problem - Cixin Liu 🧑‍🚀</li>
-        </ul>
-        <p>If you recommend me a song or book here, I’ll rec you one too! ❤️❤️</p> */}
+      <section>
+        <Navbar/>
+
+        <div >
+          <p className={utilStyles.headingMd}>Me in 1 second</p>
+
+          <Image 
+                  priority
+                  src="/images/profile.jpeg"
+                  className={utilStyles.image}
+                  height={350}
+                  width={700}
+                  style={{objectFit: "contain"}}
+                  alt=""
+                />
+          <br></br>
+
+          <p className={utilStyles.headingMd}>Me in 10 seconds</p>
+          <p></p>
+          <p>Short term goal: get industry experience in human-centered design and/or product management.</p>
+          <p>Long term goal: lead a team that builds solutions to important problems.</p>
+          <p>Lifetime goal: make life better for the people around me.</p>
+          <br></br>
+
+          <p className={utilStyles.headingMd}>Me in 10 minutes</p>
+          <p></p>
+          <p>Herman Hesse's Book <em>Siddhartha</em> says that wisdom comes from experience; we learn by doing, not by listening. I'm 20, but I'd like to think I've gained an okay-ish amount of experience so far. Here are some beliefs I've picked up — you decide if they're wise or not.</p>
+          <br></br>
+
+          <p>🚧 👷 🚧 👷 Coming soon... 👷 🚧 👷 🚧</p>
+          <p></p>   
+
+        </div>
+
       </section>
 
 

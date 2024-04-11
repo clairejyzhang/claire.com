@@ -1,28 +1,53 @@
 .background {
     height: 35%;
     background-color: #F0F4F9;
-    margin-left: -2.5rem;
-    margin-right: -2.5rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     border-radius: .95rem;
 }
 
 .container {
-    padding: 4rem 0 4rem 2.55rem;
+    padding: 2rem 2.55rem 2rem 2.55rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textContainer {
+    margin-top: 2.5rem;
+    width: 48%;
 }
 
 .title {
-    font-size: 1.875rem;
-    font-weight: 550;
+    font-size: 1.5rem;
+    font-weight: 540;
+    color: #777777;
 }
 
 .subtitle {
     color: #777777;
-    font-weight: bolder;
+    font-size: 1.125rem;
+    font-weight: 580;
     margin-top: 1rem;
 }
 
 .blurb {
+    font-size: 1.125rem;
     margin-top: 1rem;
-    max-width: 45%;
+}
+
+.thumbnailContainer {
+    width: 48%;
+    background-color: white;
+    border-radius: .75rem;
+    display: table-cell;
+}
+
+.thumbnail {
+    max-height: 110%;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+
+    max-width: 115%;
+    margin-left: -2rem;
+    margin-right: -2rem;
 }
