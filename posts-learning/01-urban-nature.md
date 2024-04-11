@@ -24,7 +24,7 @@ Along with the HINTS Lab at the University of Washington, I:
 + developed a framework for evaluating urban nature design (greenspaces, parks, riversides, etc.)
 + collected hundreds of images of urban nature designs from Google Street View
 + labeled images with a qualitative score
-+ and used them to fine-tune a pre-trained computer vision model that qualitatively evaluates urban nature design 
++ and used them to fine-tune a pre-trained computer vision model that quantitatively evaluates urban nature design 
 
 With this tool in hand, urban designers don't need to be experts in nature interaction themselves to design rich nature experiences. They can use AI trained by experts to generate insights for them.
 
