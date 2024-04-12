@@ -1,12 +1,12 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
 import Navbar from './navbar';
+import { Analytics } from '@vercel/analytics/react';
+
 
 const name = 'Claire Zhang';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'A website';
 
 export default function Layout({ children, home }) {
   return (
@@ -25,6 +25,7 @@ export default function Layout({ children, home }) {
           {/* <Link href="/">← Back to home</Link> */}
         </div>
       )}
+      <Analytics />
     </div>
   );
 }

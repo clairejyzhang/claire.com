@@ -8,6 +8,7 @@
   "dependencies": {
     "@next/mdx": "^14.2.0",
     "@types/mdx": "^2.0.13",
+    "@vercel/analytics": "^1.2.2",
     "date-fns": "^2.30.0",
     "gray-matter": "^4.0.3",
     "next": "latest",

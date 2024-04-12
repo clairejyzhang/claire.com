@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from '../components/navbar';
-
 import utilStyles from '../styles/utils.module.css';
+
 
 export default function Home() {
   return (
