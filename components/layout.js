@@ -2,8 +2,6 @@ import Head from 'next/head';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Navbar from './navbar';
-import { Analytics } from '@vercel/analytics/react';
-
 
 const name = 'Claire Zhang';
 export const siteTitle = 'A website';
@@ -25,7 +23,6 @@ export default function Layout({ children, home }) {
           {/* <Link href="/">← Back to home</Link> */}
         </div>
       )}
-      <Analytics />
     </div>
   );
 }
