@@ -27,7 +27,7 @@ While we pursued this design project, we also explored how using AI as a generat
 &nbsp;
 ![alt text](/images/community-problem-statements.png)
 
-After several rounds of ideating solutions, reevaluating the problem space, and returning to users, we've currently refined the problem statement as follows:
+After several rounds of ideating solutions, reevaluating the problem space, and returning to users, we refined the problem statement as follows:
 
 #### Young professionals lack opportunities for spontaneous networking and making new connections due to limited availability of open facilities outside of work hours, absence of built-in communities, and a lack of awareness about available options for socializing outside of their work environment.
 
@@ -45,13 +45,40 @@ Even though we went through several rounds of prompting ChatGPT, it only propose
 
 ### Ultimately, human-led brainstorming was more interesting and thought-provoking
 
-We tried to do Crazy 8's, but it ended being more like Crazy 6's. Time pressure forced us to be more creative, which isn't a constraint for AI.
+We tried to do Crazy 8's, but it ended being more like Crazy 6's... Time pressure forced us to be more creative and outside-the-box, which doesn't happen with AI.
 
 &nbsp;
 ![alt text](/images/community-brainstorm.png)
 
 &nbsp;
 
-### This project is ongoing, and we're currently working on prototyping/testing... check back in later for more
+### Our users felt most compelled by an idea called Bridge that leverages friends of friends
 
+Bridge makes it easy for you to meet your friends of friends. If your friend wants to go out somewhere, like to a cafe, and wants to meet new people, they open a hangout on Bridge. Bridge sends a mass invite to everyone in your friend’s network, including you. You accept the invite and can also send it to everyone in your own network. Now when you go out, it’s with a mix of old friends and new connections. Those new connections join your network and will get invites to any hangouts you open in the future. Bridge users' networks grow exponentially, maximizing the potential for chance new encounters. 
 
+&nbsp;
+![alt text](/images/bridge-wires-final.png)
+##### A strong visual identity appeals to young adults and provides lots of potential for future creative exploration.
+
+&nbsp;
+
+Bridge starts when someone in your network opens a hangout at a public space like a cafe, park, or jazz bar. Bridge invites everyone in their network though typically only a percentage of those invited can actually join. You can get the invite directly from the opener, or it can be passed onto you through a mutual connection. Here, Pol B started a hangout and sent it to Harry West, who sent it to Claire. 
+
+![alt text](/images/bridge-open-hangout.png)
+
+&nbsp;
+
+You can accept the invite and can also send it out to everyone in your own network. Play around with the interaction **[here](https://www.figma.com/proto/KJ1WPoduLQOvvlFpdfy5bx/bridge---yes%2Fsend-interactions?type=design&node-id=1-50&t=ZT9Ueww1VlqMaURh-1&scaling=contain&page-id=0%3A1&mode=design)** - just press and hold on 'yes' or 'send'. 
+
+&nbsp;
+
+When you attend the same hangout as someone, Bridge automatically adds them to your network. Each edge is color-coded by the hangout you met at, creating a colorful 3D model that grows as you meet more people. 
+
+&nbsp;
+![alt text](/images/bridge-network.png)
+
+Our friendships and relationships with other people are what make us human. Bridge helps you make meaningful connections and find community.
+
+### Further exploration: creating a strong visual identity through small, coherent details
+
+It took me about 8 hours to go from blank Figma workspace to these first-pass wireframes. With more time, I want to play around with smaller details: micro-animations, fun colors, and typography that represent how Bridge makes users feel.

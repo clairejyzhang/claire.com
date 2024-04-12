@@ -31,9 +31,11 @@ export default function Writing({ allPostsData }) {
                 <li className={utilStyles.listItem} key={id}>
                   <Link href={`/writing/${id}`}>{title}</Link>
                   <br />
-                  <small className={utilStyles.lightText}>
-                    <Date dateString={date} />
-                  </small>
+                  <div className={`${utilStyles.container55}`}>
+                    <small className={`${utilStyles.lightText}`}>
+                      <Date dateString={date} />
+                    </small>
+                  </div>
                 </li>
               ))}
             </ul>
