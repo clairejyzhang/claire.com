@@ -79,6 +79,8 @@ When you attend the same hangout as someone, Bridge automatically adds them to y
 
 Our friendships and relationships with other people are what make us human. Bridge helps you make meaningful connections and find community.
 
+&nbsp;
+
 ### Further exploration: creating a strong visual identity through small, coherent details
 
 It took me about 8 hours to go from blank Figma workspace to these first-pass wireframes. With more time, I want to play around with smaller details: micro-animations, fun colors, and typography that represent how Bridge makes users feel.
