@@ -25,6 +25,10 @@
     font-weight: 500;
     line-height: 2;
   }
+  
+  .bothMargins {
+    margin: 1rem auto 1rem auto;
+  }
 
   .p {
     font-size: 1rem;

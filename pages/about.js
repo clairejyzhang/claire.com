@@ -37,7 +37,7 @@ export default function Home() {
 
           <p className={utilStyles.headingMd}>Me in 10 minutes</p>
           <p>For the last few years, I tried to always ask ‘Why not?’ instead of ‘Why?’. Almost always, the answer was, ‘Well, I guess there’s no reason not to.” So I’ve ended up doing a lot of different things. In approximate chronological order, here are some highlights:</p>
-          <ul>
+          <ul className={utilStyles.bothMargins}>
             <li>Designed, built, and launched rockets</li>
             <li>Built full-stack web applications</li>
             <li>Researched how we can use AI to bring thoughtful nature design back to our cities</li>
@@ -50,9 +50,7 @@ export default function Home() {
             <li>Applied human-centered design principles to conceptualize better solutions for areas from mental health support to human spaceflight</li>
           </ul>
           <p>By exploring broadly in the past, I’ve developed the perspective and motivation to focus in on a specific goal moving forward. Here’s what I want to do:</p>
-          <br></br>
-          <p><b>integrate creativity, intentional design, and knowledge of emerging technology to create meaningful solutions that are thoughtful, purposeful, and impactful</b></p>
-          <br></br>
+          <p className={utilStyles.bothMargins}><b>Integrate creativity, intentional design, and knowledge of emerging technology to create meaningful solutions that are thoughtful, purposeful, and impactful</b></p>
           <p>Now I always answer ‘Why not?’ with ‘Would doing this bring me closer to my goal?’.</p>
 
           <br></br>
