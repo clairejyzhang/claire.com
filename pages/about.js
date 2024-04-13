@@ -51,7 +51,7 @@ export default function Home() {
           </ul>
           <p>By exploring broadly in the past, I’ve developed the perspective and motivation to focus in on a specific goal moving forward. Here’s what I want to do:</p>
           <p className={utilStyles.bothMargins}><b>Integrate creativity, intentional design, and knowledge of emerging technology to create meaningful solutions that are thoughtful, purposeful, and impactful</b></p>
-          <p>Now I always answer ‘Why not?’ with ‘Would doing this bring me closer to my goal?’.</p>
+          
 
           <br></br>
           <br></br>
