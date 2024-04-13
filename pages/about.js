@@ -31,17 +31,33 @@ export default function Home() {
           <p className={utilStyles.headingMd}>Me in 10 seconds</p>
           <p></p>
           <p>Short term goal: get industry experience in human-centered design and/or product management.</p>
-          <p>Long term goal: lead a team that builds solutions to important problems.</p>
+          <p>Long term goal: lead a team that creates holistic solutions to important problems.</p>
           <p>Lifetime goal: make life better for the people around me.</p>
           <br></br>
 
           <p className={utilStyles.headingMd}>Me in 10 minutes</p>
-          <p></p>
-          <p>Herman Hesse's Book <em>Siddhartha</em> says that wisdom comes from experience; we learn by doing, not by listening. I'm 20, but I'd like to think I've gained an okay-ish amount of experience so far. Here are some beliefs I've picked up — you decide if they're wise or not.</p>
+          <p>For the last few years, I tried to always ask ‘Why not?’ instead of ‘Why?’. Almost always, the answer was, ‘Well, I guess there’s no reason not to.” So I’ve ended up doing a lot of different things. In approximate chronological order, here are some highlights:</p>
+          <ul>
+            <li>Designed, built, and launched rockets</li>
+            <li>Built full-stack web applications</li>
+            <li>Researched how we can use AI to bring thoughtful nature design back to our cities</li>
+            <li>Used ML to make climate model hyperparameter tuning more efficient</li>
+            <li>Assisted Columbia Business School professors in behavioral research</li>
+            <li>Started teaching myself how to use Figma for better visual communication</li>
+            <li>Become a New York state certified EMT and volunteered 200 hours</li>
+            <li>Built full-stack mobile applications</li>
+            <li>Helped design and deliver solutions for older adults with dementia</li>
+            <li>Applied human-centered design principles to conceptualize better solutions for areas from mental health support to human spaceflight</li>
+          </ul>
+          <p>By exploring broadly in the past, I’ve developed the perspective and motivation to focus in on a specific goal moving forward. Here’s what I want to do:</p>
+          <br></br>
+          <p><b>integrate creativity, intentional design, and knowledge of emerging technology to create meaningful solutions that are thoughtful, purposeful, and impactful</b></p>
+          <br></br>
+          <p>Now I always answer ‘Why not?’ with ‘Would doing this bring me closer to my goal?’.</p>
+
+          <br></br>
           <br></br>
 
-          <p>🚧 👷 🚧 👷 Coming soon... 👷 🚧 👷 🚧</p>
-          <p></p>   
 
         </div>
 

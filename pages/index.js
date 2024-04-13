@@ -38,7 +38,7 @@ export default function Learning({ allPostsData }) {
 
         <section className={`${utilStyles.container55}`}>
           <div className={`${styles.hello}`}>Hi, I'm Claire! Right now, I'm a junior at Columbia University studying computer science. One day, I want to lead a team that creates solutions to important problems. </div> 
-          <div className={`${styles.aboutMe}`}><span className={`${styles.untilThen}`}>Until then,</span> I'll be learning about what exactly goes into that—from discovery to implementation—by working on parts of solutions to important-ish problems. Here are some things I've worked on so far:</div>
+          <div className={`${styles.aboutMe}`}><span className={`${styles.untilThen}`}>Until then,</span> I'll be learning about what exactly goes into that — from discovery to implementation — by working on parts of solutions to important problems. Here are some things I've worked on so far:</div>
 
           <section className={`${styles.menu} ${utilStyles.padding1px}`}>
               <div className={`${styles.menuContainer}`}>
