@@ -50,7 +50,7 @@ export default function Home() {
             <li>Applied human-centered design principles to conceptualize better solutions for areas from mental health support to human spaceflight</li>
           </ul>
           <p>By exploring broadly in the past, I’ve developed the perspective and motivation to focus in on a specific goal moving forward. Here’s what I want to do:</p>
-          <p className={utilStyles.bothMargins}><b>Integrate creativity, intentional design, and knowledge of emerging technology to create meaningful solutions that are thoughtful, purposeful, and impactful</b></p>
+          <p className={utilStyles.bothMargins}><b>Integrate creativity, intentional design, and knowledge of emerging technology to create meaningful solutions that are thoughtful, purposeful, and impactful.</b></p>
           
 
           <br></br>
