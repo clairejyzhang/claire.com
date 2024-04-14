@@ -12,10 +12,15 @@ export default function Post({ postData }) {
         </Head>
 
         <article>
-          <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-          <div className={`${utilStyles.container55}`}>
-            <Date dateString={postData.date} />
+
+          <div className={`${utilStyles.blogLineContainer} ${utilStyles.container55}`}>
+            <div className={utilStyles.headingMd}><b>{postData.title}</b></div>
+            <div className={`${utilStyles.container55}`}>
+              <Date dateString={postData.date} />
+            </div>
           </div>
+         
+         <br></br>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
         

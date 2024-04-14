@@ -24,19 +24,19 @@ export default function Writing({ allPostsData }) {
         <Navbar />
         <section className={`${utilStyles.container55}`}>
           {/* <h1>Coming soon!</h1> */}
-          <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-            <h2 className={utilStyles.headingLg}>🚧 👷 Coming soon 🚧 👷 </h2>
-            <ul className={utilStyles.list}>
+          <section className={`${utilStyles.padding1px}`}>
+            <h2 className={utilStyles.headingLg}>Writing</h2>
+            <div className={utilStyles.list}>
               {allPostsData.map(({ id, date, title }) => (
-                <li className={utilStyles.listItem} key={id}>
-                  <Link href={`/writing/${id}`}>{title}</Link>
-                  <br />
-                  <small className={`${utilStyles.lightText}`}>
-                      <Date dateString={date} />
-                    </small>
-                </li>
+                <div className={utilStyles.listItem} key={id}>
+                  <div className={`${utilStyles.blogLineContainer}`}>
+                    <Link className={`${utilStyles.headingMd}`} href={`/writing/${id}`}><b>{title}</b></Link>
+                    <Date dateString={date} />
+                  </div>
+                  
+                </div>
               ))}
-            </ul>
+            </div>
           </section>
         </section>
 
