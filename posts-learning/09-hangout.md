@@ -48,7 +48,7 @@ Even though we went through several rounds of prompting ChatGPT, it only propose
 We tried to do Crazy 8's, but it ended being more like Crazy 6's... Time pressure forced us to be more creative and outside-the-box, which doesn't happen with AI.
 
 &nbsp;
-![alt text](/images/community/brainstorm.png)
+![alt text](/images/hangout/brainstorm.png)
 
 &nbsp;
 
