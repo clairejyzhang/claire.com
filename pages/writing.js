@@ -25,17 +25,15 @@ export default function Writing({ allPostsData }) {
         <section className={`${utilStyles.container55}`}>
           {/* <h1>Coming soon!</h1> */}
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-            <h2 className={utilStyles.headingLg}>🚧 👷 Blog is under construction 🚧 👷 </h2>
+            <h2 className={utilStyles.headingLg}>🚧 👷 Coming soon 🚧 👷 </h2>
             <ul className={utilStyles.list}>
               {allPostsData.map(({ id, date, title }) => (
                 <li className={utilStyles.listItem} key={id}>
                   <Link href={`/writing/${id}`}>{title}</Link>
                   <br />
-                  <div className={`${utilStyles.container55}`}>
-                    <small className={`${utilStyles.lightText}`}>
+                  <small className={`${utilStyles.lightText}`}>
                       <Date dateString={date} />
                     </small>
-                  </div>
                 </li>
               ))}
             </ul>
