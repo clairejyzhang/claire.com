@@ -30,4 +30,4 @@ With this tool in hand, urban designers don't need to be experts in nature inter
 
 &nbsp;
 
-We're at an inflection point with AI. It'll either lead to innovation, or complacency with the status quo. I believe that by continuing to create thoughtful AI applications, we can leverage AI to create better versions of ourselves, our cities, and the world around us.
+AI is an inflection point. It'll either lead to innovation, or amplification of the status quo. We need to push for intentional AI applications that create better versions of ourselves, our cities, and the world around us.

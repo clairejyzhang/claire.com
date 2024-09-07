@@ -11,9 +11,9 @@
     "@vercel/analytics": "^1.2.2",
     "date-fns": "^2.30.0",
     "gray-matter": "^4.0.3",
-    "next": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^14.2.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "remark": "^14.0.3",
     "remark-html": "^15.0.2",
     "sharp": "^0.33.3"

@@ -27,7 +27,7 @@
   }
   
   .bothMargins {
-    margin: 1rem auto 1rem auto;
+    margin: .8rem auto 1rem auto;
   }
 
   .p {
@@ -58,7 +58,7 @@
   
   .lightText {
     color: #666666;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: normal;
   }
 
@@ -102,3 +102,7 @@
   align-items: center;
 }
 
+.sublist {
+  max-width: 100%;
+  margin-bottom: 0;
+}

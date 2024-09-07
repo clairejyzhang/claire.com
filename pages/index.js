@@ -30,48 +30,47 @@ export default function Learning({ allPostsData }) {
 
     return (
     <>
-      <Head>
-        <title>Work | Claire Zhang</title>
-      </Head>
-        
-        <Navbar />
+      <section className={`${styles.indexContainer}`}>
+        <Head>
+          <title>Work | Claire Zhang</title>
+        </Head>
+          
+          <Navbar />
 
-        <section className={`${utilStyles.container55}`}>
-          <div className={`${styles.hello}`}>Hi, I'm Claire! Right now, I'm a junior at Columbia University studying computer science. One day, I want to lead a team that creates solutions to important problems. </div> 
-          <div className={`${styles.aboutMe}`}><span className={`${styles.untilThen}`}>Until then,</span> I'll be learning about what exactly goes into that — from discovery to implementation — by working on parts of solutions to important problems. Here are some things I've worked on so far:</div>
+          <section className={`${utilStyles.container55}`}>
+            <div className={`${styles.hello}`}>Egleston Scholar @ Columbia University '25 thinking about intentional AI, human connection, and creativity.</div> 
+            <div className={`${styles.aboutMe}`}>I look for experiences with steep learning curves, teams that are like jazz bands, and a practice of writing as thinking. Here are some things I've worked on so far:</div>
 
-          <section className={`${styles.menu} ${utilStyles.padding1px}`}>
-              <div className={`${styles.menuContainer}`}>
-              {allPostsData.map(({ id, num, title }) => (
-                <div>
-                  <div onMouseEnter={() => setSelectedProjectNum(num)} className={styles.projectRow}>
-                    <div className={styles.projectRowContent}>
-                      <small className={utilStyles.lightText}>
-                          <Num int={num} />
-                      </small>
-                      <Link className={`${utilStyles.projectLink}`}href={`/learning/${id}`}>{title}</Link>
+            <section className={`${styles.menu} ${utilStyles.padding1px}`}>
+                <div className={`${styles.menuContainer}`}>
+                {allPostsData.map(({ id, num, title }) => (
+                  <div>
+                    <div onMouseEnter={() => setSelectedProjectNum(num)} className={styles.projectRow}>
+                      <div className={styles.projectRowContent}>
+                        <small className={utilStyles.lightText}>
+                            <Num int={num} />
+                        </small>
+                        <Link className={`${utilStyles.projectLink}`}href={`/learning/${id}`}>{title}</Link>
+                      </div>
                     </div>
                   </div>
+                ))}
                 </div>
-              ))}
-              </div>
+            </section>
+
+            <Preview 
+              title={selectedProject.title}
+              roles={selectedProject.roles}
+              year={selectedProject.year}
+              description={selectedProject.description}
+              image={selectedProject.image}
+            />
+
+            <br></br>
+
           </section>
-
-          <Preview 
-            title={selectedProject.title}
-            roles={selectedProject.roles}
-            year={selectedProject.year}
-            description={selectedProject.description}
-            image={selectedProject.image}
-          />
-
-          <br></br>
-          <br></br>
-          <br></br>
-
-        </section>
         
-
+      </section>
     </>
       
     );

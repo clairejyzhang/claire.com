@@ -3,11 +3,11 @@ title: 'AI-powered personalized therapy for dementia'
 roles: ['Design + Implementation']
 year: 2023
 description: Cognitive stimulation therapy (CST) has proved to be more efficient than drug therapies in treating mild/moderate dementia in older adults. How can we use AI to make CST more personalized and accessible? An internship in the summer of 2023 at a stealth agetech startup.
-num: 05
+num: 03
 image: "/images/agetech-thumbnail.png"
 ---
 
-Because of my contract, I won't show any specific wireframes that I worked on. Instead, here are some of my takeaways.
+Because of my contract, I won't show any specific wireframes or artifacts I worked on. Instead, here are some of my takeaways.
 
 &nbsp;
 

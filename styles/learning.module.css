@@ -1,3 +1,7 @@
+.indexContainer {
+    height: 100%;
+}
+
 .p {
     font-size: 1.5rem;
 }
@@ -8,15 +12,15 @@
 }
 
 .hello {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 540;
 }
 
 .aboutMe {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.25;
     /* margin-left: -2.5rem; */
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .menuContainer {
@@ -25,7 +29,7 @@
     align-content: flex-start;
     flex-wrap: wrap;
     height: 8rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     column-gap: 3.5rem;
 }
 
@@ -50,7 +54,7 @@
 
 .projectRow {
     display: inline-block;
-    font-size: 1.2rem
+    font-size: 1.1rem;
 }
 
 .projectRow:after {

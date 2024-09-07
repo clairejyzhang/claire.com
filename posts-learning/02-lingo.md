@@ -1,9 +1,9 @@
 ---
-title: 'linGO: An AR language learning app'
+title: 'linGO: an AR language learning app'
 roles: ['Design']
 year: 2022
 description: How can we use AR to integrate language learning into the real world? A project for Brian Smith’s User Interface Design course.
-num: 04
+num: 02
 image: "/images/lingo/lingo-thumbnail.png"
 ---
 

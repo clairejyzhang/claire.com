@@ -2,8 +2,8 @@
 title: 'First responders as extreme designers'
 roles: ['Volunteering']
 year: 2023
-description: Provided free emergency medical care to members of the Columbia University and Morningside Heights community, including intervention decision, administration of intervention, and transport. Volunteered 200 total hours and learned how to become a better user researchers.
-num: 06
+description: Provided free emergency medical care to members of the Columbia University and Morningside Heights community, including intervention decision, administration of intervention, and transport. Volunteered 200 total hours and learned how to become a better user researcher.
+num: 05
 image: "/images/emt/emt-thumbnail.png"
 
 ---
@@ -37,4 +37,4 @@ When four EMTs are all treating one patient, things can get hectic. I learned to
 
 ### How to build a culture of feedback
 
-Many patients are unwilling to give feedback to EMTs even if they're in pain, because they don't want to seem 'difficult.' I learned to proactively ask for patient feedback, evangelizing patient interaction as a two-way conversation rather than a one-sided interaction from the start. I also gave and received feedback from the rest of the crew in scrum-like debriefs after each call where we reflected on what went well, what could have gone better, and our goals for next time.
+Many patients are unwilling to give feedback to EMTs even if they're in pain, because they don't want to seem 'difficult.' I learned to proactively ask for patient feedback, evangelizing patient interaction from the start as a two-way conversation rather than a one-sided interaction. I also gave and received feedback from the rest of the crew in scrum-like debriefs after each call where we reflected on what went well, what could have gone better, and our goals for next time.

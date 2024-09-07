@@ -1,9 +1,9 @@
 ---
-title: 'Hangout: meet your friends of friends'
+title: 'Hangouts: meet your friends of friends'
 roles: ['Design']
 year: 2024
-description: How can we make better use of existing infrastructures, both physical and social, to help New Yorkers build community? And how does the presence of AI as a teammate affect the design process? An ongoing project for Harry West’s Human-Centered Design and Innovation course.
-num: 9
+description: How can we make better use of existing infrastructures, both physical and social, to help New Yorkers build community? And how does the presence of AI as a teammate affect the design process? A project for Harry West’s Human-Centered Design and Innovation course.
+num: 7
 image: "/images/hangout/brainstorm.png"
 ---
 
