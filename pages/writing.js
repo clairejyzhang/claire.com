@@ -20,6 +20,7 @@ export default function Writing({ allPostsData }) {
     <>
       <Head>
         <title>Writing | Claire Zhang</title>
+        <meta name="description" content="Poems, life updates, and someday essays" />
       </Head>
         <Navbar />
         <section className={`${utilStyles.container55}`}>

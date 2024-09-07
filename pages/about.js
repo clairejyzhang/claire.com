@@ -9,6 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>About | Claire Zhang</title>
+        <meta name="description" content="Some things about me and some of my beliefs." />
       </Head>
 
       <section>
@@ -41,7 +42,7 @@ export default function Home() {
             <li>Bookstores and orchestra rehearsals were my third spaces growing up</li>
             <li>Went to Columbia because I wanted to be in New York</li>
             <li>Wasn't sure what I wanted in a career when I started college so I did a bunch of random things — in hindsight I've been doing gradient descent along the axes of 'challenge,' 'impact,' and 'people' or something like that but I don't know yet if my current goal of product management is a local or global maximum</li>
-            <li>I am pretty sure what I want out of life more broadly though, which is to live in a city by the water with lots of sunny days, and people I love to enjoy them with</li>
+            <li>I am pretty sure what I want out of life more broadly though: to live in a city by the water, with lots of sunny days and people I love to enjoy them with</li>
           </ul>
 
           <p>Some things I believe:</p>

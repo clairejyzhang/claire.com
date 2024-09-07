@@ -33,6 +33,8 @@ export default function Learning({ allPostsData }) {
       <section className={`${styles.indexContainer}`}>
         <Head>
           <title>Work | Claire Zhang</title>
+          <meta name="description" content="Egleston Scholar @ Columbia University '25 thinking about intentional AI, human connection, and creativity." />
+
         </Head>
           
           <Navbar />
