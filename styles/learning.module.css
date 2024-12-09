@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     height: 8rem;
     margin-top: 1.5rem;
-    column-gap: 3.5rem;
+    column-gap: 2.5rem;
 }
 
 @media (max-width:1310px) { 

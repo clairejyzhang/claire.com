@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/learning.module.css';
-import { getSortedPostsData } from '../lib/learning-posts';
+import { getSortedPostsData } from '../lib/learning-script';
 import Link from 'next/link';
 import Num from '../components/format-num';
 import Navbar from '../components/navbar';

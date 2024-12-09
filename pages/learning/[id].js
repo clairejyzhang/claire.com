@@ -1,5 +1,5 @@
 import Layout from '../../components/layout';
-import { getAllPostIds, getPostData } from '../../lib/learning-posts';
+import { getAllPostIds, getPostData } from '../../lib/learning-script';
 import Head from 'next/head';
 import Num from '../../components/format-num';
 import utilStyles from '../../styles/utils.module.css';
