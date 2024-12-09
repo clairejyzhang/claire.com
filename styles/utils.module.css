@@ -1,3 +1,68 @@
+.image {
+    max-height: 20rem;
+}
+
+/* Utility Classes */
+.container {
+    margin: 0 auto;
+    padding: 0 2rem;
+    max-width: 55%;
+  }
+  
+  .container55 {
+    max-width: 55%;
+    margin-left: 22.5%;
+  }
+  
+  @media (max-width: 1664px) {
+    .container55 {
+      max-width: 70%;
+      margin-left: 15%;
+    }
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .noBulletList {
+    list-style-type: none;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bothMargins {
+    margin: 0.8rem auto 1rem auto;
+  }
+  
+  .padding1px {
+    padding-top: 1px;
+  }
+  
+  .colorInherit {
+    color: inherit;
+  }
+  
+  .borderCircle {
+    border-radius: 9999px;
+  }
+  
+  .lightText {
+    color: #666666;
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
+
+  /* Heading Styles */
 .heading2Xl {
     font-size: 2.5rem;
     line-height: 1.2;
@@ -16,7 +81,6 @@
   .headingLg {
     font-size: 1.5rem;
     font-weight: 600;
-    /* line-height: 1.4; */
     margin: 1rem 0 2rem 0;
   }
   
@@ -26,83 +90,28 @@
     line-height: 2;
   }
   
-  .bothMargins {
-    margin: .8rem auto 1rem auto;
-  }
-
-  .p {
-    font-size: 1rem;
-  }
-
-  /* .image {
-    margin: 3rem auto 3rem auto;
-  } */
   
-  .borderCircle {
-    border-radius: 9999px;
+  /* Layout Specific */
+  .introContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
   }
   
-  .colorInherit {
-    color: inherit;
+  .projectLink {
+    margin-left: 0.5rem;
   }
   
-  .padding1px {
-    padding-top: 1px;
+  .blogLineContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  .sublist {
+    max-width: 100%;
+    margin-bottom: 0;
   }
   
-  .lightText {
-    color: #666666;
-    font-size: 1.1rem;
-    font-weight: normal;
-  }
-
-.container55 {
-  max-width: 55%;
-  margin-left: 22.5%;
-}
-
-@media (max-width:1664px) { 
-    
-  .container55 {
-      max-width: 70%;
-      margin-left: 15%;
-  }
-
-}
-
-.container {
-    max-width: 55%;
-}
-
-.introContainer {
-  display: flex;
-  flex-direction: row;
-  gap: 5%;
-  align-items: center;
-}
-
-.noBulletList {
-  list-style-type: none;
-}
-
-.projectLink {
-  margin-left: .5rem;
-}
-
-.blogLineContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.sublist {
-  max-width: 100%;
-  margin-bottom: 0;
-}

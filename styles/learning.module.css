@@ -1,29 +1,21 @@
+/* Specific to Index.js */
+
 .indexContainer {
     height: 100%;
-}
-
-.p {
-    font-size: 1.5rem;
-}
-
-.untilThen {
-    letter-spacing: .03rem;
-    font-weight: 650;
-}
-
-.hello {
+  }
+  
+  .hello {
     font-size: 1.25rem;
     font-weight: 540;
-}
-
-.aboutMe {
+  }
+  
+  .aboutMe {
     font-size: 1.1rem;
     line-height: 1.25;
-    /* margin-left: -2.5rem; */
     margin-top: 1.5rem;
-}
-
-.menuContainer {
+  }
+  
+  .menuContainer {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -31,31 +23,29 @@
     height: 8rem;
     margin-top: 1.5rem;
     column-gap: 2.5rem;
-}
-
-@media (max-width:1310px) { 
-    
+  }
+  
+  @media (max-width: 1310px) {
     .menuContainer {
-        height: 16rem;
+      height: 16rem;
     }
-}
-
-@media (max-width:655px) { 
-    
+  }
+  
+  @media (max-width: 655px) {
     .menuContainer {
-        height: 20rem;
+      height: 20rem;
     }
-}
-
-.projectRowContent {
+  }
+  
+  .projectRowContent {
     display: inline-grid;
-    grid-template-columns: 2.55rem auto; 
-}
-
-.projectRow {
+    grid-template-columns: 2.55rem auto;
+  }
+  
+  .projectRow {
     display: inline-block;
     font-size: 1.1rem;
-}
+  }
 
 .projectRow:after {
     transition: all ease-in-out .2s;
@@ -66,15 +56,86 @@
     width: 0;
 }
 
+
 .projectRow:hover:after {
     width: 100%;
 }
+
 
 .projectRow a {
     transition: color .2s;
 }
 
+
 .projectRow:hover a {
     color: #666666;
 }
 
+  
+  /* Preview Component Styles */
+  .previewBackground {
+    background-color: #f0f4f9;
+    margin-top: 1.5rem;
+    border-radius: 0.95rem;
+  }
+  
+  .previewContainer {
+    height: 47vh;
+    padding: 1.5rem 2.55rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .previewTextContainer {
+    margin-top: 0.8rem;
+    width: 48%;
+  }
+  
+  .previewTitle {
+    font-size: 1.25rem;
+    font-weight: 540;
+    color: #777777;
+  }
+  
+  .previewSubtitle {
+    color: #777777;
+    font-size: 1.1rem;
+    font-weight: 580;
+    margin-top: 0.8rem;
+  }
+  
+  .previewBlurb {
+    font-size: 1.1rem;
+    margin-top: 0.8rem;
+  }
+  
+  .previewThumbnailContainer {
+    width: 40%;
+    background-color: white;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .previewThumbnail {
+    max-height: 110%;
+    max-width: 115%;
+    margin: -1rem -2rem;
+  }
+  
+  @media (max-width: 890px) {
+    .previewContainer {
+      flex-direction: column;
+    }
+  
+    .previewTextContainer {
+      width: 80%;
+    }
+  
+    .previewThumbnailContainer {
+      margin: 2.5rem auto;
+      width: 100%;
+    }
+  }
+  
