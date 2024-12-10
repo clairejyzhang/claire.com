@@ -1,141 +1,206 @@
-/* Specific to Index.js */
-
 .indexContainer {
-    height: 100%;
-  }
-  
-  .hello {
-    font-size: 1.25rem;
-    font-weight: 540;
-  }
-  
-  .aboutMe {
-    font-size: 1.1rem;
-    line-height: 1.25;
-    margin-top: 1.5rem;
-  }
-  
-  .menuContainer {
-    display: flex;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hello {
+  font-size: 1.25rem;
+  font-weight: 540;
+}
+
+.aboutMe {
+  font-size: 1.1rem;
+  line-height: 1.25;
+  margin-top: 1.5rem;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  height: 8rem;
+  margin-top: 1.5rem;
+  column-gap: 2.5rem;
+}
+
+@media (max-width: 1310px) {
+
+  .columnContainer {
     flex-direction: column;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    height: 8rem;
-    margin-top: 1.5rem;
-    column-gap: 2.5rem;
   }
-  
-  @media (max-width: 1310px) {
-    .menuContainer {
-      height: 16rem;
-    }
+
+  .menuContainer {
+    height: 16rem;
   }
-  
-  @media (max-width: 655px) {
-    .menuContainer {
-      height: 20rem;
-    }
+}
+
+@media (max-width: 655px) {
+  .menuContainer {
+    height: 20rem;
   }
-  
-  .projectRowContent {
-    display: inline-grid;
-    grid-template-columns: 2.55rem auto;
-  }
-  
-  .projectRow {
-    display: inline-block;
-    font-size: 1.1rem;
-  }
+}
+
+.projectRowContent {
+  display: inline-grid;
+  grid-template-columns: 2.55rem auto;
+}
+
+.projectRow {
+  display: inline-block;
+  font-size: 1.1rem;
+}
 
 .projectRow:after {
-    transition: all ease-in-out .2s;
-    background: none repeat scroll 0 0 #666666;
-    content: "";
-    display: block;
-    height: 2px;
-    width: 0;
+  transition: all ease-in-out .2s;
+  background: none repeat scroll 0 0 #666666;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
 }
-
 
 .projectRow:hover:after {
-    width: 100%;
+  width: 100%;
 }
-
 
 .projectRow a {
-    transition: color .2s;
+  transition: color .2s;
 }
-
 
 .projectRow:hover a {
-    color: #666666;
+  color: #666666;
 }
 
-  
-  /* Preview Component Styles */
-  .previewBackground {
-    background-color: #f0f4f9;
-    margin-top: 1.5rem;
-    border-radius: 0.95rem;
-  }
-  
+/* Preview Component Styles */
+
+.previewText {
+  text-align: left;
+  width: 100%;
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+
+.previewContainer {
+  width: 100%;
+  height: 47vh;
+  padding: 1.5rem 2.55rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.previewTextContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* margin-top: 0.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box; */
+}
+
+.previewTitle,
+.previewSubtitle,
+.previewBlurb {
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.previewTitle {
+  font-size: 1.1rem;
+  font-weight: 540;
+  color: #777777;
+}
+
+.previewSubtitle {
+  color: #777777;
+  font-size: 1.1rem;
+  font-weight: 580;
+  margin-top: 0.8rem;
+}
+
+.previewBlurb {
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+}
+
+.previewThumbnailContainer {
+  flex-grow: 1; /* Allows container to expand and fill remaining vertical space */
+  position: relative; /* Creates positioning context for absolute child elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.previewThumbnailBackground {
+  position: absolute;
+  background-color: white;
+  border-radius: 16px; /* Adjust border-radius as needed */
+  width: 90%; /* Slightly less than full width for margins */
+  height: 90%; /* Slightly less than full height for margins */
+  z-index: 1; /* Behind thumbnail but above container */
+}
+
+.previewThumbnail {
+  position: absolute;
+  z-index: 2; /* Ensures thumbnail is on top of background */
+  max-width: 85%; /* Prevents image from touching container edges */
+  max-height: 85%; /* Prevents image from touching container edges */
+  object-fit: contain;
+  margin-top: 0;
+}
+
+.previewGraphic {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 890px) {
   .previewContainer {
-    height: 47vh;
-    padding: 1.5rem 2.55rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
   }
-  
+
   .previewTextContainer {
-    margin-top: 0.8rem;
-    width: 48%;
+    width: 80%;
   }
-  
-  .previewTitle {
-    font-size: 1.25rem;
-    font-weight: 540;
-    color: #777777;
-  }
-  
-  .previewSubtitle {
-    color: #777777;
-    font-size: 1.1rem;
-    font-weight: 580;
-    margin-top: 0.8rem;
-  }
-  
-  .previewBlurb {
-    font-size: 1.1rem;
-    margin-top: 0.8rem;
-  }
-  
+
   .previewThumbnailContainer {
-    width: 40%;
-    background-color: white;
-    border-radius: 0.75rem;
-    display: flex;
-    justify-content: center;
+    margin: 2.5rem auto;
+    width: 100%;
   }
-  
-  .previewThumbnail {
-    max-height: 110%;
-    max-width: 115%;
-    margin: -1rem -2rem;
-  }
-  
-  @media (max-width: 890px) {
-    .previewContainer {
-      flex-direction: column;
-    }
-  
-    .previewTextContainer {
-      width: 80%;
-    }
-  
-    .previewThumbnailContainer {
-      margin: 2.5rem auto;
-      width: 100%;
-    }
-  }
-  
+}
+
+
+.columnContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 20px;
+  width: auto;
+  flex-grow: 1;
+}
+
+.columnProjectRows {
+  min-width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.columnPreviews {
+  height: 34rem;
+  background-color: #f0f4f9;
+  border-radius: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  /*flex-grow: 1;*/
+  align-items: stretch;
+  position: relative;
+}

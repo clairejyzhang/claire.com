@@ -8,6 +8,13 @@
     padding: 0 2rem;
     max-width: 55%;
   }
+
+.columnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
   
   .container55 {
     max-width: 55%;
