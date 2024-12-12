@@ -38,7 +38,7 @@ export default function Learning({ allPostsData }) {
 
         
         <section className={`${utilStyles.container55}`}>
-          <div className={`${styles.hello}`}>Egleston Scholar @ Columbia University '25 thinking about intentional AI, human connection, and creativity.</div>
+          <div className={`${utilStyles.title}`}>Egleston Scholar @ Columbia University '25 thinking about intentional AI, human connection, and creativity.</div>
           <div className={`${styles.aboutMe}`}>
             I look for experiences with steep learning curves, teams that are like jazz bands, and a practice of writing as thinking. Here are some things I've worked on so far:
           </div>
@@ -83,48 +83,6 @@ export default function Learning({ allPostsData }) {
               
             </div>
           </div>
-          {/* <section className={`${utilStyles.columnContainer}`}>
-            <section className={`${styles.menu} ${utilStyles.padding1px}`}>
-              <div className={`${styles.menuContainer}`}>
-                {allPostsData.map(({ id, num, title }) => (
-                  <div key={id}>
-                    <div onMouseEnter={() => setSelectedProjectNum(num)} className={styles.projectRow}>
-                      <div className={styles.projectRowContent}>
-                        <small className={utilStyles.lightText}>
-                          <Num int={num}   />
-                        </small>
-                        <Link className={`${utilStyles.projectLink}`} href={`/learning/${id}`}>
-                          {title}
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </section>
-
-            <section className={styles.previewContainer}>
-                <div className={styles.previewTextContainer}>
-                  <div className={styles.previewTitle}>{selectedProject.title}</div>
-                  <div className={styles.previewSubtitle}>
-                    {selectedProject.roles ? selectedProject.roles.join(', ').toUpperCase() : ''} · {selectedProject.year}
-                  </div>
-                  <div className={styles.previewBlurb}>{selectedProject.description}</div>
-                </div>
-
-                <div className={styles.previewThumbnailContainer}>
-                  <Image
-                    priority
-                    src={selectedProject.image}
-                    height={400}
-                    width={600}
-                    style={{ objectFit: 'contain' }}
-                    alt="thumbnail"
-                    className={styles.previewThumbnail}
-                  />
-                </div>
-              </section>
-            </section> */}
           </section> 
         </section> 
     </>

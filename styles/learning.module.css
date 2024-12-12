@@ -4,11 +4,6 @@
   flex-direction: column;
 }
 
-.hello {
-  font-size: 1.25rem;
-  font-weight: 540;
-}
-
 .aboutMe {
   font-size: 1.1rem;
   line-height: 1.25;
@@ -24,40 +19,27 @@
   column-gap: 2.5rem;
 }
 
-@media (max-width: 1310px) {
-
-  .columnContainer {
-    flex-direction: column;
-  }
-
-  .menuContainer {
-    height: 16rem;
-  }
-}
-
-@media (max-width: 655px) {
-  .menuContainer {
-    height: 20rem;
-  }
-}
-
 .projectRowContent {
-  display: inline-grid;
-  grid-template-columns: 2.55rem auto;
+  display: grid; /* Changed to grid for flexibility */
+  grid-template-columns: max-content 1fr; /* First column adapts to content, second takes remaining space */
+  column-gap: .6rem; /* Sets a fixed gap of 1rem between columns */
 }
 
 .projectRow {
-  display: inline-block;
+  position: relative;
+  display: block;
   font-size: 1.1rem;
 }
 
 .projectRow:after {
-  transition: all ease-in-out .2s;
-  background: none repeat scroll 0 0 #666666;
   content: "";
-  display: block;
-  height: 2px;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
   width: 0;
+  height: 2px;
+  background-color: #666666;
+  transition: width 0.2s ease-in-out;
 }
 
 .projectRow:hover:after {
@@ -144,8 +126,8 @@
   position: absolute;
   background-color: white;
   border-radius: 16px; /* Adjust border-radius as needed */
-  width: 90%; /* Slightly less than full width for margins */
-  height: 90%; /* Slightly less than full height for margins */
+  width: 80%; /* Slightly less than full width for margins */
+  height: 60%; /* Slightly less than full height for margins */
   z-index: 1; /* Behind thumbnail but above container */
 }
 
@@ -163,7 +145,45 @@
   height: 100%;
 }
 
-@media (max-width: 890px) {
+.columnContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 20px;
+  width: auto;
+  flex-grow: 1;
+}
+
+.columnProjectRows {
+  min-width: max-content;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.columnPreviews {
+  height: 34rem;
+  background-color: #f0f4f9;
+  border-radius: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: stretch;
+  position: relative;
+}
+
+@media (max-width: 1366px) {
+
+  .columnContainer {
+    flex-direction: column;
+  }
+  
+
+
+  .menuContainer {
+    height: 16rem;
+  }
+
   .previewContainer {
     flex-direction: column;
   }
@@ -179,28 +199,24 @@
 }
 
 
-.columnContainer {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  padding-top: 20px;
-  width: auto;
-  flex-grow: 1;
-}
+@media (max-width: 768px) {
+  .menuContainer {
+    height: 20rem;
+  }
 
-.columnProjectRows {
-  min-width: max-content;
-  display: flex;
-  flex-direction: column;
-}
+  .projectRowContent {
+    word-wrap: break-word;
+    white-space: normal; 
+  }
 
-.columnPreviews {
-  height: 34rem;
-  background-color: #f0f4f9;
-  border-radius: 0.95rem;
-  display: flex;
-  flex-direction: column;
-  /*flex-grow: 1;*/
-  align-items: stretch;
-  position: relative;
+  .projectLink {
+    word-wrap: break-word; /* Ensures long words are wrapped */
+    white-space: normal; /* Allows wrapping of text */
+    width: 100%; /* Ensures the link fits within its parent container */
+    display: inline-block; /* Ensures proper wrapping */
+  }
+
+  .columnProjectRows {
+    min-width: 0px;
+  }
 }

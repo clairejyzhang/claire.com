@@ -1,11 +1,10 @@
 import Layout from '../../components/layout';
-import { getAllPostIds, getPostData } from '../../lib/learning-script';
+import { getAllPostIds, getPostData } from '../../lib/notes-script';
 import Head from 'next/head';
-import Num from '../../components/format-num';
+import Date from '../../components/format-date';
 import utilStyles from '../../styles/utils.module.css';
 
 export default function Post({ postData }) {
-
     return (
       <Layout>
         <Head>
@@ -13,10 +12,14 @@ export default function Post({ postData }) {
         </Head>
 
         <article>
-          <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+          <div className={`${utilStyles.articleHeader} ${utilStyles.container55}`}>
+            <div className={`${utilStyles.title}`}>{postData.title}</div>
+            <Date dateString={postData.date} />
+          </div>
+          <br></br>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
-      
+        
       </Layout>
     );
   }

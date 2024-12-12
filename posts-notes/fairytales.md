@@ -1,5 +1,6 @@
 ---
 title: 'Fairytales'
+category: 'Poem'
 date: '2023-12-05'
 ---
 

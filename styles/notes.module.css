@@ -1,0 +1,32 @@
+.projectRowContent {
+    margin-left: -5rem;
+    display: grid;
+    grid-template-columns: 4rem 1fr auto; /* Fixed width for category, flexible title, and date */
+    align-items: center; /* Align items vertically */
+    gap: .6rem; /* Adjust spacing between columns */
+  }
+  
+  .category {
+    text-align: right; /* Right-align category text */
+  }
+  
+  .title {
+    text-align: left; /* Left-align title text */
+  }
+  
+  .date {
+    text-align: right; /* Right-align date text */
+  }
+  
+
+  @media (max-width: 768px) {
+  
+    .projectRowContent {
+      word-wrap: break-word;
+      white-space: normal; 
+    }
+
+    .columnProjectRows {
+      min-width: 0px;
+    }
+  }

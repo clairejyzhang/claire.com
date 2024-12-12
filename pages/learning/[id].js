@@ -13,7 +13,10 @@ export default function Post({ postData }) {
         </Head>
 
         <article>
-          <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+          <div className={`${utilStyles.articleHeader} ${utilStyles.container55}`}>
+            <div className={`${utilStyles.title}`}>{postData.title}</div>
+          </div>
+          <br></br>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
       

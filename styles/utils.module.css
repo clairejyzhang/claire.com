@@ -2,6 +2,18 @@
     max-height: 20rem;
 }
 
+.title {
+  font-size: 1.25rem;
+  font-weight: 540;
+}
+
+.articleHeader {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space out the title and date */
+  align-items: center; /* Vertically align title and date */
+  width: 100%; /* Ensure it spans the container */
+}
+
 /* Utility Classes */
 .container {
     margin: 0 auto;
@@ -20,13 +32,14 @@
     max-width: 55%;
     margin-left: 22.5%;
   }
-  
-  @media (max-width: 1664px) {
+
+  @media (max-width: 1366px) {
     .container55 {
       max-width: 70%;
       margin-left: 15%;
     }
   }
+
   
   .center {
     text-align: center;
@@ -108,6 +121,7 @@
   
   .projectLink {
     margin-left: 0.5rem;
+    font-size: 1.1rem;
   }
   
   .blogLineContainer {
