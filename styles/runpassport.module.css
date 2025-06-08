@@ -1,0 +1,105 @@
+.pageWrapper {
+  min-height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0; /* ⬅️ set vertical padding only */
+}
+
+.cardStack {
+  position: relative;
+}
+
+/* Stack of background cards, now sized to match run pages */
+.backCard4,
+.backCard3,
+.backCard2,
+.backCard1 {
+  position: absolute;
+  width: 20rem; /* 320px */
+  height: 28.75rem; /* 460px */
+  background-color: #f8f6f2;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.06);
+}
+
+.backCard4 { top: 3rem; left: 3rem; }
+.backCard3 { top: 2.25rem; left: 2.25rem; }
+.backCard2 { top: 1.5rem; left: 1.5rem; }
+.backCard1 { top: 0.75rem; left: 0.75rem; }
+
+/* Main passport cover card */
+.mainCard {
+  position: relative;
+  width: 20rem; /* 320px */
+  height: 28.75rem; /* 460px */
+  background-color: #233856; /* navy */
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.cardContent {
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* push content to bottom */
+  align-items: flex-start;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #e4c9a4;
+  text-align: left;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.emoji {
+  font-size: 1rem;
+}
+
+.name {
+  font-size: 0.875rem;
+}
+
+.title {
+  font-size: 2.75rem;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0;
+  color: #e4c9a4;
+}
+
+.mainCard {
+  position: relative;
+  width: 20rem;
+  height: 28.5rem;
+  background-color: #233856;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.coverImage {
+  object-fit: contain; /* preserve aspect ratio, don't crop */
+  border-radius: 1rem;
+}
