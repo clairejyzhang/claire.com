@@ -1,6 +1,6 @@
 ---
 title: 'Teleoperated robotics for spacewalk support'
-roles: ['Design']
+ages: [21]
 year: 2024
 description: Long-term missions to the Moon, Mars, and beyond will require astronauts to conduct even longer spacewalks, which pose inherent risks. How can we use teleoperated robotics to reduce astronaut spacewalk time? An ongoing project for former NASA astronaut Michael Massimino’s Human Spaceflight course. Writeup coming soon.
 num: 8

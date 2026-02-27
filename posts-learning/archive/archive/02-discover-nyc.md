@@ -1,6 +1,6 @@
 ---
 title: 'Discover NYC: An AR exploration app'
-roles: ['Design']
+ages: [19]
 year: 2022
 description: How can we use AR and crowdsourced sentiment analysis to help people explore new cities? A hackathon project for Columbia DevFest 2022. 
 num: 02

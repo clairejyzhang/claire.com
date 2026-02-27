@@ -1,7 +1,6 @@
 import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/learning-script';
 import Head from 'next/head';
-import Num from '../../components/format-num';
 import utilStyles from '../../styles/utils.module.css';
 
 export default function Post({ postData }) {
@@ -14,7 +13,14 @@ export default function Post({ postData }) {
 
         <article>
           <div className={`${utilStyles.articleHeader} ${utilStyles.container55}`}>
-            <div className={`${utilStyles.title}`}>{postData.title}</div>
+            <div className={`${utilStyles.title}`}>
+              {postData.title}
+              {postData.ages && Array.isArray(postData.ages) && postData.ages.length ? (
+                <span className={utilStyles.ages}>
+                  {` | ${postData.ages.length === 1 ? 'age' : 'ages'} ${postData.ages.join(', ')}`}
+                </span>
+              ) : null}
+            </div>
           </div>
           <br></br>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

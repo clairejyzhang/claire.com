@@ -7,6 +7,11 @@
   font-weight: 540;
 }
 
+.ages {
+  position: relative;
+  top: -1px;
+}
+
 .articleHeader {
   display: flex; /* Use flexbox for alignment */
   justify-content: space-between; /* Space out the title and date */
@@ -122,6 +127,12 @@
   .projectLink {
     margin-left: 0.5rem;
     font-size: 1.1rem;
+  }
+
+  .linkBlue {
+    color: #0000EE;
+    text-decoration: underline;
+
   }
   
   .blogLineContainer {

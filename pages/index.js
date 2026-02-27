@@ -31,16 +31,16 @@ export default function Learning({ allPostsData }) {
       <section className={`${styles.indexContainer}`}>
         <Head>
           <title>Work | Claire Zhang</title>
-          <meta name="description" content="Egleston Scholar @ Columbia University '25 thinking about intentional AI, human connection, and creativity." />
+          <meta name="description" content="What I'm up to these days." />
         </Head>
 
         <Navbar />
 
         
         <section className={`${utilStyles.container55}`}>
-          <div className={`${utilStyles.title}`}>Egleston Scholar @ Columbia University '25 thinking about intentional AI, human connection, and creativity.</div>
+          <div className={`${utilStyles.title}`}>Currently solo employee at a VC fund; previously Egleston Scholar @ Columbia University '25.</div>
           <div className={`${styles.aboutMe}`}>
-            I look for experiences with steep learning curves, teams that are like jazz bands, and a practice of writing as thinking. Here are some things I've worked on so far:
+            I'm still figuring out what I want career-wise, but so far I've enjoyed steep learning curves, teams that are like jazz bands, and a practice of writing as thinking. Here are some learnings from previous experiences:
           </div>
 
           <div className={`${styles.columnContainer}`}>
@@ -52,9 +52,11 @@ export default function Learning({ allPostsData }) {
                           <small className={utilStyles.lightText}>
                             <Num int={num} />
                           </small>
-                          <Link className={`${utilStyles.projectLink}`} href={`/learning/${id}`}>
-                            {title}
-                          </Link>
+                          <span className={styles.projectTitle}>
+                            <Link className={styles.projectLink} href={`/learning/${id}`}>
+                              {title}
+                            </Link>
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -64,7 +66,7 @@ export default function Learning({ allPostsData }) {
               <div className={styles.previewText}>
                 <div className={styles.previewTitle}>{selectedProject.title}</div>
                   <div className={styles.previewSubtitle}>
-                    {selectedProject.roles ? selectedProject.roles.join(', ').toUpperCase() : ''} · {selectedProject.year}
+                    {selectedProject.year}
                   </div>
                 <div className={styles.previewBlurb}>{selectedProject.description}</div>
               </div>              

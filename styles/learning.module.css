@@ -29,9 +29,21 @@
   position: relative;
   display: block;
   font-size: 1.1rem;
+  margin-bottom: 0.1rem;
 }
 
-.projectRow:after {
+.projectTitle {
+  justify-self: start;
+  width: fit-content;
+}
+
+.projectLink {
+  position: relative;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.projectLink:after {
   content: "";
   position: absolute;
   bottom: -2px;
@@ -42,7 +54,7 @@
   transition: width 0.2s ease-in-out;
 }
 
-.projectRow:hover:after {
+.projectRow:hover .projectLink:after {
   width: 100%;
 }
 

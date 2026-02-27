@@ -1,6 +1,6 @@
 ---
 title: 'Reimagining a data annotation GUI'
-roles: ['Design']
+ages: [19]
 year: 2022
 description: Reimagining a data annotation tool for pose labeling. Part of my internship at the Flatiron Institute.
 num: 03

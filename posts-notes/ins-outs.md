@@ -1,8 +1,39 @@
 ---
-title: 'Ins and outs - FW 2024'
-category: 'Article'
+title: 'Annual ins and outs'
+category: 'List'
 date: '2024-12-11'
 ---
+
+2025
+
+&nbsp;
+
+In
+
+- Google Docs
+- eBay
+- Marshmallows
+- Asking for things
+- Proof based math
+- A 25-30 minute commute
+
+Out 
+
+- Depop
+- Getting an internship
+- Drinking
+- WiFi
+- Capital One
+- Speed bumps
+- __ wrapped
+- Outdoor seating
+
+&nbsp;
+&nbsp;
+
+2024
+
+&nbsp;
 
 In
 
