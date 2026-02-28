@@ -26,6 +26,8 @@
     "path": false
   },
   "devDependencies": {
-    "typescript": "5.4.4"
+    "@types/node": "^25.3.2",
+    "@types/react": "^19.2.14",
+    "typescript": "^5.4.4"
   }
 }
