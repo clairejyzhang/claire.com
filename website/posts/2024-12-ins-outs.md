@@ -1,34 +1,9 @@
 ---
-title: 'Annual ins and outs'
+title: '2025 ins and outs'
 time: December 2024
 ---
 
-2025
-
 In
-
-- Google Docs
-- eBay
-- Marshmallows
-- Asking for things
-- Proof based math
-- A 25-30 minute commute
-
-Out 
-
-- Depop
-- Getting an internship
-- Drinking
-- WiFi
-- Capital One
-- Speed bumps
-- __ wrapped
-- Outdoor seating
-
-2024
-
-In
-
 - Movies about immigrant Americana
 - Beans
 - Things made of clay, wood, or stainless steel
@@ -43,7 +18,6 @@ In
 - "Golden slumbers fill your eyes"
 
 Out
-
 - Cigarettes
 - Cookies permissions
 - Plane boarding queues

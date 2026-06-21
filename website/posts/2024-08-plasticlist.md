@@ -3,7 +3,7 @@ title: 'PlasticList: testing foods for plastic chemicals'
 time: August 2024
 ---
 
-Spent five weeks in early summer 2024 working out of the NFDG office to test popular Silicon Valley foods and beverages for plastic chemicals. We wanted to know: How many plastic chemicals are we consuming, and how bad are they for us?
+Spent five weeks in early summer 2024 testing popular Bay Area foods and beverages for plastic chemicals. We wanted to know: How many plastic chemicals are we consuming, and how bad are they for us?
 
 Learnings about plastic chemical research:
 

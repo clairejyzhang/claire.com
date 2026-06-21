@@ -3,7 +3,7 @@ title: 'Fairytales'
 time: December 2023
 ---
 
-*I initially wrote this as a poem in 2023, but revisiting it in 2026 I now think it works better as short prose (no line breaks!)
+I wrote this as a poem in 2023, but revisiting it in 2026 I now think it works better as short prose (no line breaks!)
 
 i
 
