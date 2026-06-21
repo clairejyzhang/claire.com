@@ -1,0 +1,59 @@
+body {
+  font-family: -apple-system, system-ui, sans-serif;
+  line-height: 1.6;
+  max-width: 50rem;
+  margin: 2.5rem auto;
+  padding: 0 1.25rem;
+  color: #1a1a1a;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #2d6cdf;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+.year {
+  margin-bottom: 0;
+}
+
+.year + ul {
+  margin-top: 0;
+}
+
+/* ins-outs: each In/Out label hugs its list */
+.post-2024-12-ins-outs p:has(+ ul) {
+  margin-bottom: 0;
+}
+
+.post-2024-12-ins-outs ul {
+  margin-top: 0;
+}
+
+.post-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-nav-logo {
+  height: 4.8rem; /* ~3 lines of text */
+  width: auto;
+}
+
+.back {
+  display: inline-block;
+}
+
+.post-meta {
+  color: #666;
+  margin-top: -0.5rem;
+}
