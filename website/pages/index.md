@@ -7,10 +7,10 @@ title: 'Claire Zhang'
 ### Some things about me:
 
 - Born and raised in Seattle, WA
-- Public libraries and orchestra rehearsals were my third spaces growing up
-- Went to Columbia because I wanted to be in New York
-- Learned about research, emergency medicine, venture capital, and creative writing
-- Currently seeking an apprenticeship, learning about luthiery, and volunteering as an EMT
+- Public libraries were my third spaces growing up
+- Went to Columbia because I wanted to [study engineering in New York](/posts/2025-08-columbia-engineering) 
+- Worked on [emergency medicine](/posts/2024-01-ems), [testing foods for plastic chemicals](https://www.plasticlist.org/), [AI](/posts/2024-08-qualtrics) [strategy](/posts/2025-01-madrid-ai-strategy), and venture capital
+- Currently seeking an apprenticeship and learning about tacit knowledge
 - [LinkedIn](https://www.linkedin.com/in/claire-zhang-3b7550190/), [Twitter](https://x.com/clairejzhang)
 
 ### I believe:
