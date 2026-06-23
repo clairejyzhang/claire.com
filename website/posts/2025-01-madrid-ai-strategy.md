@@ -3,7 +3,7 @@ title: 'Learnings from working on AI strategy in Madrid'
 time: January 2025
 ---
 
-AI strategy internship for a <30-person strategy and design company in Madrid. I mostly wanted to experience what it was like living and working in a different country.
+AI strategy internship for a <30-person strategy and design company in Madrid. I also wanted to experience what it was like living and working in a different country.
 
 ### Work reflections
 

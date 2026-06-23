@@ -1,5 +1,5 @@
 ---
-title: 'Learning to receive wisdom'
+title: 'I'm ready to receive wisdom'
 time: November 2025
 ---
 
